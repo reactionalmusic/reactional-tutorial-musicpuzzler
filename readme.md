@@ -2,7 +2,11 @@
 
 ![Alt text](MusicalPuzzler.jpg?raw=true "Title")
 
-This project serves as a showcase and tutorial on how to easily retrofit musical gameplay into an existing game.
+This project serves as a showcase and tutorial on how to easily retrofit musical gameplay into an existing game. When making this project, more time was spent tweaking colors than making it musical.
+
+[![Watch demo and tutorial video!](https://img.youtube.com/vi/nr8LT5RsRaU
+/0.jpg)](https://www.youtube.com/watch?v=nr8LT5RsRaU)
+
 
 ## Important information
 
@@ -11,6 +15,7 @@ This project serves as a showcase and tutorial on how to easily retrofit musical
 > You will also need to download a music bundle.
 > These can be found on https://app.reactionalmusic.com 
 
+### Download music asset bundle from the Reactional Demo Project
 Find the Demo Project field to the left and open the Reactional Demo Project. Click the project export button on the top right. Download and unzip the content into a folder, which you must then place in the StreamingAssets/Reactional folder in Unity.
 
 The "section" of the project in question that is used is the "Music Game Stingers". If you want to create your own curated list of songs, make a new project, add the Theme "Music Game Stingers", and some tracks of your choosing.

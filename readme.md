@@ -4,9 +4,7 @@
 
 This project serves as a showcase and tutorial on how to easily retrofit musical gameplay into an existing game. When making this project, more time was spent tweaking colors than making it musical.
 
-[!Watch demo and tutorial video!(https://img.youtube.com/vi/nr8LT5RsRaU
-/0.jpg)](https://www.youtube.com/watch?v=nr8LT5RsRaU)
-
+[Watch demo and tutorial video](https://www.youtube.com/watch?v=nr8LT5RsRaU)
 
 ## Important information
 

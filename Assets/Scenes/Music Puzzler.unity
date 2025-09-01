@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 247698513}
-  m_IndirectSpecularColor: {r: 0.4439372, g: 0.49315345, b: 0.5721989, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -337,6 +337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _allowPlay: 0
   _outputEvents: 1
+  enableLogging: 1
   output: {fileID: 0}
   _updateMode: 1
   _audioOutputMode: 0
@@ -857,120 +858,185 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb7d56e2d1164026874f8e09601fff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSection: Music Game Stingers
+  defaultSection: 
   bundles:
-  - name: ShooterDemo_1712324588310
-    path: /Users/miniwrench/reactional/unity/ReacTris/Assets/StreamingAssets/Reactional/ShooterDemo_1712324588310
+  - name: Reactional Free Bundle
+    path: G:/Repo/Unity/reactional-tutorial-musicpuzzler/Assets/StreamingAssets/Reactional\Reactional
+      Free Bundle
     sections:
-    - name: Feature Showcase
+    - name: Reactional Free Bundle
       themes:
-      - name: Reactional Revolution
-        trackID: -1
-        trackHash: 7f507f6361825928615dc3f3a2bbb2955e1e9bb28f7513c013394ae2d4d638de
-        trackName: Reactional Revolution
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: ShooterDemo_1712324588310
+      - name: Mirror_Drift
+        ID: -1
+        artist: 
+        album: 
+        genre: 
+        cover: 
+        BPM: 
+        duration: 0
+        time: 0
+        hash: 727cb8f31f81ec9c4778dd6b407ca62e9529d229d00e87f2e34e895ff4250977
+        bundleID: Reactional Free Bundle
+        macros:
+        - Density
+        - Energy
+        - Autonomy
+        - Progress
+        - Tempo
+        - Low-Pass Filter
+        - Synths Only
+        - Stereo Swirl
+        parts:
+        - intro
+        - light
+        - light (track part)
+        - medium
+        - medium (track part)
+        - full
+        - full (track part)
+        - silence
+        stingers:
+        - positive, small
+        - positive, medium
+        - positive, large
+        - neutral, small
+        - neutral, medium
+        - neutral, large
+        - negative, small
+        - negative, medium
+        - negative, large
+        - sfx crackle
+        - sfx malfunction
+        - sfx thunder
+        - sfx crash
+        - sfx rrr
+        - sfx gated snare
+        overridableInstruments:
+        - Perc Drums
+        - Perc Snare
+        - BS
+        - PL Hard
+        - PL Beep
+        - LD Nitro
+        - Sirens
+        performerRoutings:
+        - name: 'Performer: Perc Drums'
+          lane_index: 9
+          sink_indices: 00000000
+        - name: 'Performer: Perc Snare'
+          lane_index: 10
+          sink_indices: 01000000
+        - name: 'Performer: BS'
+          lane_index: 11
+          sink_indices: 02000000
+        - name: 'Performer: PL Hard'
+          lane_index: 12
+          sink_indices: 03000000
+        - name: 'Performer: PL Beep'
+          lane_index: 13
+          sink_indices: 04000000
+        - name: 'Performer: LD Nitro'
+          lane_index: 14
+          sink_indices: 05000000
+        - name: 'Performer: Sirens'
+          lane_index: 15
+          sink_indices: 06000000
+        - name: 'Playable Performer: Perc Drums'
+          lane_index: 16
+          sink_indices: 07000000
+        - name: 'Playable Performer: Perc Snare'
+          lane_index: 17
+          sink_indices: 08000000
+        - name: 'Playable Performer: BS'
+          lane_index: 18
+          sink_indices: 09000000
+        - name: 'Playable Performer: PL Hard'
+          lane_index: 19
+          sink_indices: 0a000000
+        - name: 'Playable Performer: PL Beep'
+          lane_index: 20
+          sink_indices: 0b000000
+        - name: 'Playable Performer: LD Nitro'
+          lane_index: 21
+          sink_indices: 0c000000
+        - name: 'Playable Performer: Sirens'
+          lane_index: 22
+          sink_indices: 0d000000
+        - name: 'Stinger: FX Perc'
+          lane_index: 23
+          sink_indices: 0e000000
+        - name: 'Stinger: Hard'
+          lane_index: 24
+          sink_indices: 0f000000
+        - name: 'Stinger: Beeep'
+          lane_index: 25
+          sink_indices: 10000000
+        - name: 'Stinger: Buzz'
+          lane_index: 26
+          sink_indices: 11000000
       playlists:
-      - name: Default
+      - name: New Playlist #1
         tracks:
-        - name: Reflections
-          trackID: -1
-          trackHash: 2f17a9dddca54e015b671540d73e70c91bb505186b52173f75a3ae6b0bc0309e
-          trackName: Reflections
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: ShooterDemo_1712324588310
-        - name: Gotcha Like
-          trackID: -1
-          trackHash: 9cbd547991b1f331556796363123cc866ee0df9d8a7e516a5da51f7ef32aa481
-          trackName: Gotcha Like
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: ShooterDemo_1712324588310
-    - name: Music Game Stingers
-      themes:
-      - name: MusicStingers
-        trackID: -1
-        trackHash: 05a9d64ece51974a0d12950fbb630cdb476ac087f0b57b0efd2f0e76376c16fd
-        trackName: MusicStingers
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: ShooterDemo_1712324588310
-      playlists:
-      - name: Default
-        tracks:
-        - name: Airplanes
-          trackID: -1
-          trackHash: b0b0addd74db09a7a0fedf0a7ac15e4d3177782a5501f73d1100a71f35a1a9ee
-          trackName: Airplanes
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: ShooterDemo_1712324588310
-        - name: Knuckles
-          trackID: -1
-          trackHash: a206bb359a17b01468a908e87e6fcf67eb25fef3d8d0bc5a0161db7af5c4783b
-          trackName: Knuckles
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: ShooterDemo_1712324588310
-        - name: Do It To Me
-          trackID: -1
-          trackHash: 427686ae38d5db8c3b5d05a4c04ec015d18ed3b70e86606c5692db3942d1d1aa
-          trackName: Do It To Me
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: ShooterDemo_1712324588310
-        - name: Vertigo
-          trackID: -1
-          trackHash: 54fe603d5f694bdb63ec7960692e9a5b12f557f55be083a6d8b8e1ccf23d3c75
-          trackName: Vertigo
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: ShooterDemo_1712324588310
-    - name: Theme Adventure
-      themes:
-      - name: Reactional Revolution
-        trackID: -1
-        trackHash: 7f507f6361825928615dc3f3a2bbb2955e1e9bb28f7513c013394ae2d4d638de
-        trackName: Reactional Revolution
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: ShooterDemo_1712324588310
-      playlists: []
+        - name: Over The Bridge
+          ID: -1
+          artist: Philip Hansson
+          album: ' '
+          genre: ' '
+          cover: 
+          BPM: 120.023483571429
+          duration: 251980392
+          time: 126.000015
+          hash: 7e1252efbb75b1f18657b4a5fd7a6d8841d23c54312b7d19ce996fa87618e0bf
+          bundleID: Reactional Free Bundle
+        - name: enjoy.
+          ID: -1
+          artist: Alexander-Lee Couchy
+          album: ' '
+          genre: ' '
+          cover: 
+          BPM: 85.06937125
+          duration: 96027914
+          time: 67.75957
+          hash: 194045c7804b747bac41e31673cbf34ab5af6624ad4d0d7ef2ac61b7f2afa396
+          bundleID: Reactional Free Bundle
+        - name: Time Flie
+          ID: -1
+          artist: Jonas Kjellberg
+          album: ' '
+          genre: ' '
+          cover: 
+          BPM: 149.483705
+          duration: 120076212
+          time: 48.21049
+          hash: 031e15fc1f323743cdf5fa5c5595d32823c66159df1c795f149cad8c5e4192af
+          bundleID: Reactional Free Bundle
+        - name: Song To Sunday
+          ID: -1
+          artist: Luke Ritchie
+          album: ' '
+          genre: ' '
+          cover: 
+          BPM: 98.9461338750001
+          duration: 319963421
+          time: 194.07773
+          hash: 17c0694ecc7aa3f80b75db34e1b4a86cb978e98f0d138f3fd3ba9bb4865e8d03
+          bundleID: Reactional Free Bundle
+        - name: Drift
+          ID: -1
+          artist: Luka Aron
+          album: ' '
+          genre: ' '
+          cover: 
+          BPM: 120.148600327869
+          duration: 216200000
+          time: 108
+          hash: a990b9890872c610127078080da6526b9a686a0d96353eb8b92a0f94f9e32b42
+          bundleID: Reactional Free Bundle
   _loadedThemes: []
   _loadedTracks: []
   lookahead: 0
   selectedTheme: 0
   selectedTrack: 0
-  _reactionalLog: 0
   _playlistMode: 1
   _loadType: 0
   isDucked: 0
@@ -1367,9 +1433,9 @@ MonoBehaviour:
   currentPiece: {fileID: 0}
   board: {fileID: 0}
   drop: {fileID: 1413565737}
-  dropStinger: medium
-  lineClearStinger: big
-  moveStinger: small
+  dropStinger: positive, medium
+  lineClearStinger: positive, big
+  moveStinger: positive, small
 --- !u!82 &1413565737
 AudioSource:
   m_ObjectHideFlags: 0

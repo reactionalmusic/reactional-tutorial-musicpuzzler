@@ -1434,7 +1434,7 @@ MonoBehaviour:
   board: {fileID: 0}
   drop: {fileID: 1413565737}
   dropStinger: positive, medium
-  lineClearStinger: positive, big
+  lineClearStinger: positive, large
   moveStinger: positive, small
 --- !u!82 &1413565737
 AudioSource:
